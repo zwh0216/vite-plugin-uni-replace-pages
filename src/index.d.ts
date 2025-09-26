@@ -8,4 +8,4 @@ export interface Options {
   pagesJsonPath: string;
 }
 
-export default function vitePluginsUniReplacePages(options: Options[]): Plugin;
+export default function vitePluginsUniReplacePages(options: Options): Plugin;
