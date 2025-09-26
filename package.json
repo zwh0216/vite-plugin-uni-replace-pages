@@ -1,0 +1,31 @@
+{
+  "name": "vite-plugin-uni-replace-pages",
+  "version": "1.0.3",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "description": "replace pages.json field for uniapp",
+  "scripts": {
+    "dev": "node ./dist/index.mjs",
+    "build": "webpack",
+    "publish:latest": "npm publish --tag latest"
+  },
+  "typings": "./dist/index.d.ts",
+  "keywords": [],
+  "author": "zhangweihan",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "devDependencies": {
+    "@swc/core": "^1.13.19",
+    "copy-webpack-plugin": "^13.0.1",
+    "swc-loader": "^0.2.6",
+    "vite": "^7.1.7",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "unbuild": "^3.6.1"
+  }
+}

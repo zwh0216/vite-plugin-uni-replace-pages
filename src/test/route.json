@@ -1,0 +1,39 @@
+{
+  "routes": [
+    {
+      "routePath": "pages/menu/index",
+      "path": "pages/menu/index",
+      "name": "menu",
+      "isTabBar": true,
+      "isHomePage": true,
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "routePath": "pages/me/index",
+      "path": "pages/me/index",
+      "name": "my",
+      "isTabBar": true,
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "routePath": "pages/notice-receipt-list/:procurement-in-warehouse",
+      "path": "pages/notice-receipt-list/index",
+      "name": "procurementInWarehouse",
+      "style": {
+        "navigationBarTitleText": "待入库单据"
+      }
+    },
+    {
+      "routePath": "pages/notice-receipt-list/:return-goods-in-warehouse",
+      "path": "pages/notice-receipt-list/index",
+      "name": "returnGoodsInWarehouse",
+      "style": {
+        "navigationBarTitleText": "待入库单据"
+      }
+    }
+  ]
+}

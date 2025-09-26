@@ -1,0 +1,52 @@
+{
+  "pages": [
+    {
+      "path": "pages/menu/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/notice-receipt-list/index",
+      "style": {
+        "navigationBarTitleText": "待入库单据"
+      }
+    },
+    {
+      "path": "pages/me/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF",
+    "app-plus": {
+      "titleNView": {
+        "titleSize": "20px"
+      }
+    }
+  },
+  "tabBar": {
+    "height": "68px",
+    "fontSize": "18px",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "rgba(0,0,0,0.16)",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "/static/images/home.png",
+        "selectedIconPath": "/static/images/home-select.png"
+      },
+      {
+        "pagePath": "pages/me/index",
+        "text": "我的",
+        "iconPath": "/static/images/me.png",
+        "selectedIconPath": "/static/images/me-select.png"
+      }
+    ]
+  }
+}
